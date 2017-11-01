@@ -4,7 +4,7 @@ var BUILD_DIR = path.resolve(__dirname, "public");
 var APP_DIR = path.resolve(__dirname, "src");
 
 module.exports = {
-    entry:  APP_DIR + '/client.js',
+    entry:  APP_DIR + '/client.jsx',
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js'
@@ -12,7 +12,7 @@ module.exports = {
     module:{
         loaders: [
             {
-                test:/\.js$/,
+                test: /\.jsx?/,
                 exclude: /node_modules/,
                 loader: 'babel-loader'
 

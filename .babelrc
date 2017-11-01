@@ -4,8 +4,8 @@
         "stage-0",
         "react"
     ],
-    "plugins": [
-        "transform-runtime",
-        "transform-class-properties"
-    ]
+    // "plugins": [
+    //     "transform-runtime",
+    //     "transform-class-properties"
+    // ]
 }
